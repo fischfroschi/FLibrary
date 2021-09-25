@@ -91,7 +91,7 @@ int* Array = new int[Size];
 ff::UltraQuickSort<int>(Array, Size);
 ```
 ### Short Explenaition
-Fiest we search the minimum and maximum value. Then we allocate two arrays with the size of the dirfference of the smallest and largest number plus one. The first array we use to save the values. The value of the element is the index and also the value. In the seccond array we save how often this index was used. Then we loop over the first array and add the values, if they are initialized, to the original array. We add the element as often as the value of the second array is large.
+First we search the minimum and maximum value. Then we allocate two arrays with the size of the difference between the largest and smallest value plus one. The first array we use to save the values. The value of the element is the index and also the value. In the seccond array we save how often this index was used. Then we loop over the first array and add the values, if they are initialized, to the original array. We add the element as often as the value of the second array is large.
 # License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
