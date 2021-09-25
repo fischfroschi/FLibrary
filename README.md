@@ -65,6 +65,8 @@ This can be used even if Clean / Close / GetArray was called
 ```c++
 Array.Reopen(/*Default Size*/ 10);
 ```
+## Benchmark
+Here is a small [benchmark](Benchmark.cpp).
 # FAlgorithms
 ## Usage
 ### Include FAlgorithms
