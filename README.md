@@ -1,6 +1,14 @@
 # FLibrary
 FArray &amp; Collection of Algorithms
 
+# FArray
+  # Example
+  Create FArray
+  ```c++
+  FArray<int> Array();
+  FArray<int> Array2(10);
+  ```
+
 # License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
