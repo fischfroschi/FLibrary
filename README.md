@@ -72,8 +72,15 @@ Array.Reopen(/*Default Size*/ 10);
 #include "FAlgorithms.h"
 ```
 ### UltraQuicksort
-Complexity: O(2n + LargestValue - SmallestValue)
-Additional Meory Usage: ```sizeof(n) * (LargestValue - SmallestValue) * 2``` (Bytes)
+#### Complexity:
+```c++
+O(2n + LargestValue - SmallestValue)
+```
+#### Additional Meory Usage:
+```c++
+sizeof(n) * (LargestValue - SmallestValue) * 2 //Bytes
+```
+#### Example
 ```c++
 const size_t Size = 10;
 int* Array = new int[Size];
