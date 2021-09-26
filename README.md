@@ -15,7 +15,7 @@ ff::FArray<int> Array2(10);
 ### Add Element
 ```c++
 Array.Add(/*Value*/ 50);
-Array.Add_Back(/*Value*/ 50);
+Array.Add_Front(/*Value*/ 50);
 ```
 ### Insert Element
 ```c++
